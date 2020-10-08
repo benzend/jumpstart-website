@@ -1,0 +1,73 @@
+#signUp {
+  position: absolute;
+  top: 2440px;
+  left: -100px;
+  transition: ease-in-out 1s;
+  border: none;
+}
+
+#signUp.revealed {
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* this borderbottom only works in mobile */
+.borderBottom {
+  border-bottom: 1px black solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+#main-text {
+  top: 45%;
+}
+
+#nav_topofpage {
+  visibility: hidden;
+}
+
+#extended-div.extend {
+  right: 0px;
+}
+
+#nav_signup {
+  position: fixed;
+  top: 10px;
+  right: 70px;
+}
+
+.nav div,
+.one,
+.two,
+.three {
+  display: block;
+}
+
+#reviewTitle {
+  top: 200px;
+  width: 100%;
+  color: white;
+  font-size: 3rem;
+}
+
+#img3 {
+  height: 1600px;
+}
+
+#sign-up_bg {
+  left: 0%;
+  width: 100%;
+}
+
+#contact-main div .column-container {
+  padding: 200px 0 0;
+}
+
+#blog-main h1 {
+  font-size: 2.6rem;
+}
+
+#blog-main .column-container {
+  margin-top: 10px;
+}

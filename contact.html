@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JumpStart | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-style.css" 
+    media="screen and (max-width: 500px)">
+</head>
+<body>
+    <div id="contact_bg-img"></div>
+    <div id="firstsection">
+        <div id="topofpage">
+            <header>
+            <h2><a class="whiteTxt" href="index.html"><span class="orange">Jump</span>Start</a></h2>
+            </header>
+            <nav id="nav_topofpage">
+                <ul>
+                    <li><a class="whiteTxt" href="index.html">Home</a></li>
+                    <li><a class="whiteTxt" href="blog.html">Blog</a></li>
+                    <li><a class="whiteTxt" href="reviews.html">Reviews</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_toprightofpage">
+                <p id="nav_signup"><a  class="whiteTxt" href="sign-up.html">Sign Up</a></p>
+                <div onclick="extendNav()" id="extendNav_button" class="big_wrapper">
+                    <a href="javascript:void(0)" class="nav">
+                        <div class="one whiteBg"></div>
+                        <div class="two whiteBg"></div>
+                        <div class="three whiteBg"></div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div id="extended-div">
+            <nav id="extended-nav">
+                <ul id="extended-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1 id="sign-up_jumpstart"><a class="whiteTxt" href="index.html"><span class="orange">Jump</span>Start</a></h2>
+        <div id="sign-up_bg" class="actually-contact">
+            <header><h4 class="center">Let us know your thoughts!</h4></header>
+            <div class="center">
+                <label for="name">Your name</label>
+                <br>
+                <input type="name" name="name" id="name" placeholder="First Last">
+            </div>
+            <div class="center">
+                <label for="email">Your email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="email@gmail.com">
+            </div>
+            <div class="center">
+                <label for="comments">Your input</label>
+                <br>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="What would you like to say?"></textarea>
+            </div>
+            <div class="center">
+                <button id="send-input_btn" class="btn">Send Your <span class="whiteTxt">Input</span></button>
+            </div>
+            
+        </div>
+        <footer class="blackBg">
+            <small class="whiteTxt">&#169 BenjaminScott Inc. For Whatever Needs You May Need</small>
+        </footer>
+    <script src="app.js"></script>
+</body>
+</html>

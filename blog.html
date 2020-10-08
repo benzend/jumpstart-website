@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JumpStart | Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-style.css" 
+    media="screen and (max-width: 500px)">
+</head>
+<body onscroll="checkLocWithScroll2()">
+    <div id="firstsection">
+        <div id="topofpage">
+            <header>
+            <h2><a class="whiteTxt" href="index.html"><span class="orange">Jump</span>Start</a></h2>
+            </header>
+            <nav id="nav_topofpage">
+                <ul>
+                    <li><a class="whiteTxt" href="index.html">Home</a></li>
+                    <li><a class="current" href="blog.html">Blog</a></li>
+                    <li><a class="whiteTxt" href="reviews.html">Reviews</a></li>
+                    <li><a class="whiteTxt" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_toprightofpage">
+                <p id="nav_signup"><a  class="whiteTxt" href="sign-up.html">Sign Up</a></p>
+                <div onclick="extendNav()" id="extendNav_button" class="big_wrapper">
+                    <a href="javascript:void(0)" class="nav">
+                        <div class="one whiteBg"></div>
+                        <div class="two whiteBg"></div>
+                        <div class="three whiteBg"></div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div id="extended-div">
+            <nav id="extended-nav">
+                <ul id="extended-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main id="blog-main">
+            <h1 class="whiteTxt">Keeping You Updated</h1>
+            <div class="column-container">
+                <div id="blog1" class="column-items appear">
+                    <img src="images/prof-pic1_small.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita praesentium tempore vitae voluptates molestias eos molestiae, debitis possimus id libero nemo harum nulla nobis magni, beatae deserunt iure illum, velit pariatur odit temporibus. Ut soluta expedita exercitationem, aut aperiam distinctio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aperiam mollitia reiciendis quis vitae quae.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure fugit quidem atque exercitationem deleniti ipsum aliquam consequatur nam distinctio nobis sed voluptates, labore corrupti cupiditate accusantium veritatis nemo minima sint sequi id, omnis error nisi? At hic ratione sed necessitatibus, doloribus obcaecati asperiores quidem ea laboriosam aliquid veritatis repellat nesciunt.</p>
+                    <p class="extra-linespace">Posted on <em> April 14 2020</em> by <strong> Micheaul Keefe</strong></p>
+                </div>
+                <div id="blog2" class="column-items">
+                    <img src="images/prof-pic2_small.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita praesentium tempore vitae voluptates molestias eos molestiae, debitis possimus id libero nemo harum nulla nobis magni, beatae deserunt iure illum, velit pariatur odit temporibus. Ut soluta expedita exercitationem, aut aperiam distinctio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aperiam mollitia reiciendis quis vitae quae.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure fugit quidem atque exercitationem deleniti ipsum aliquam consequatur nam distinctio nobis sed voluptates, labore corrupti cupiditate accusantium veritatis nemo minima sint sequi id, omnis error nisi? At hic ratione sed necessitatibus, doloribus obcaecati asperiores quidem ea laboriosam aliquid veritatis repellat nesciunt.</p>
+                    <p class="extra-linespace">Posted on <em> March 30 2020</em> by <strong> John Rad</strong></p>
+                </div>
+                <div id="blog3" class="column-items">
+                    <img src="images/prof-pic3_small.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita praesentium tempore vitae voluptates molestias eos molestiae, debitis possimus id libero nemo harum nulla nobis magni, beatae deserunt iure illum, velit pariatur odit temporibus. Ut soluta expedita exercitationem, aut aperiam distinctio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aperiam mollitia reiciendis quis vitae quae.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure fugit quidem atque exercitationem deleniti ipsum aliquam consequatur nam distinctio nobis sed voluptates, labore corrupti cupiditate accusantium veritatis nemo minima sint sequi id, omnis error nisi? At hic ratione sed necessitatibus, doloribus obcaecati asperiores quidem ea laboriosam aliquid veritatis repellat nesciunt.</p>
+                    <p class="extra-linespace">Updated on <em> March 15 2020 </em> by <strong> Mary Flowers</strong></p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="blackBg">
+            <small class="whiteTxt">&#169 BenjaminScott Inc. For Whatever Needs You May Need</small>
+        </footer>
+    <script src="app.js"></script>
+</body>
+</html>

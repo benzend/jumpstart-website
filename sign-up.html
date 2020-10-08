@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JumpStart | Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-style.css" 
+    media="screen and (max-width: 500px)">
+</head>
+<body>
+    <div id="sign-up_bg-img"></div>
+    <div id="firstsection">
+        <div id="topofpage">
+            <header>
+            <h2><a class="" href="index.html"><span class="orange">Jump</span>Start</a></h2>
+            </header>
+            <nav id="nav_topofpage">
+                <ul>
+                    <li><a class="" href="index.html">Home</a></li>
+                    <li><a class="" href="blog.html">Blog</a></li>
+                    <li><a class="" href="reviews.html">Reviews</a></li>
+                    <li><a class="" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_toprightofpage">
+                <p id="nav_signup"><a  class="current" href="">Sign Up</a></p>
+                <div onclick="extendNav()" id="extendNav_button" class="big_wrapper">
+                    <a href="javascript:void(0)" class="nav">
+                        <div class="one blackBg"></div>
+                        <div class="two blackBg"></div>
+                        <div class="three blackBg"></div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div id="extended-div">
+            <nav id="extended-nav">
+                <ul id="extended-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1 id="sign-up_jumpstart"><a class="" href="index.html"><span class="orange">Jump</span>Start</a></h2>
+        <div id="sign-up_bg">
+            <header><h4 class="center">Start your own account with us!</h4></header>
+            <div class="center">
+                <label for="email">Email Address</label>
+                <br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="center">
+                <label for="password">Create your password</label>
+                <br>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="center">
+                <button id="create-account_btn" class="btn">Create Account</button>
+            </div>
+            
+        </div>
+        <footer class="blackBg">
+            <small class="whiteTxt">&#169 BenjaminScott Inc. For Whatever Needs You May Need</small>
+        </footer>
+    <script src="app.js"></script>
+</body>
+</html>

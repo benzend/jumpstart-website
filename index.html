@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JumpStart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-style.css" 
+    media="screen and (max-width: 500px)">
+</head>
+<body onscroll="checkLocWithScroll()">
+    <div id="img1"></div>
+    <div id="img2"></div>
+    <div id="firstsection">
+        <div id="topofpage">
+            <header>
+            <h2><a href="index.html"><span class="orange">Jump</span>Start</a></h2>
+            </header>
+            <nav id="nav_topofpage">
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a class="" href="blog.html">Blog</a></li>
+                    <li><a class="" href="reviews.html">Reviews</a></li>
+                    <li><a class="" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_toprightofpage">
+                <p id="nav_signup"><a  class="" href="sign-up.html">Sign Up</a></p>
+                <div onclick="extendNav()" id="extendNav_button" class="big_wrapper">
+                    <a href="javascript:void(0)" class="nav">
+                        <div class="one blackBg"></div>
+                        <div class="two blackBg"></div>
+                        <div class="three blackBg"></div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div id="extended-div">
+            <nav id="extended-nav">
+                <ul id="extended-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="section"> 
+            <h3 id="main-text"><span class="orange">Jump</span>Start your career with us!</h3>
+        </div>  
+    </div>
+    <div id="signUp"><a href="sign-up.html">
+        <button class="btn">Sign Up Now!</button></a>
+    </div>
+    <footer class="blackBg">
+        <small class="whiteTxt">&#169 BenjaminScott Inc. For Whatever Needs You May Need</small>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
