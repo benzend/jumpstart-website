@@ -44,6 +44,7 @@ body {
   text-align: center;
   opacity: 1;
   transition: opacity 0.4s;
+  color: white;
   text-shadow: rgb(65, 65, 65) 10px 10px 12px;
 }
 
@@ -53,16 +54,16 @@ body {
 
 /* Img */
 #img1 {
-  background: url("/images/firstpt_background.jpg") no-repeat center
-    center/cover;
+  background: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?cs=srgb&dl=pexels-bri-schneiter-346529.jpg&fm=jpg")
+    no-repeat center center/cover;
   height: 1300px;
   filter: brightness(120%);
   filter: saturate(80%);
 }
 
 #img2 {
-  background: url("/images/secondpt_background.jpg") no-repeat center
-    center/cover;
+  background: url("https://images.pexels.com/photos/421759/pexels-photo-421759.jpeg?cs=srgb&dl=pexels-jonathan-petersson-421759.jpg&fm=jpg")
+    no-repeat center center/cover;
   height: 1300px;
   filter: saturate(60%) brightness(80%);
 }
@@ -250,8 +251,8 @@ a:hover {
 }
 
 #img3 {
-  background: url("/images/thirdpt_background.jpg") no-repeat center
-    center/cover;
+  background: url("https://images.pexels.com/photos/753325/pexels-photo-753325.jpeg?cs=srgb&dl=pexels-julius-silver-753325.jpg&fm=jpg")
+    no-repeat center center/cover;
   height: 100%;
 }
 
@@ -277,8 +278,9 @@ a:hover {
 
 /* Sign Up Page */
 #sign-up_bg-img {
-  background: url("/images/sign-up_bg-img.jpg") no-repeat center center/cover;
-  height: 950px;
+  background: url("https://images.pexels.com/photos/205002/pexels-photo-205002.jpeg?cs=srgb&dl=pexels-heiner-205002.jpg&fm=jpg")
+    no-repeat center center/cover;
+  height: 100vh;
 }
 
 #sign-up_bg {
@@ -329,8 +331,9 @@ a:hover {
 }
 
 #contact_bg-img {
-  background: url("/images/contact_bg-img.jpg") no-repeat center center/cover;
-  height: 950px;
+  background: url("https://images.pexels.com/photos/210288/pexels-photo-210288.jpeg?cs=srgb&dl=pexels-pixabay-210288.jpg&fm=jpg")
+    no-repeat center center/cover;
+  height: 100vh;
 }
 
 #contact-main div .column-container {
@@ -356,7 +359,8 @@ a:hover {
 
 /* Blog Page */
 #blog-main {
-  background: url("/images/blog-bg-img.jpg") no-repeat center center/cover;
+  background: url("https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?cs=srgb&dl=pexels-pok-rie-132037.jpg&fm=jpg")
+    no-repeat center center/cover;
   display: inline-block;
 }
 
